@@ -1,2 +1,2 @@
 # DSShop-Website
-A wwbsite where your can upload your legit roms.
+A website where your can upload your legit roms.
