@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- ADSENSE -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7159426115473712"
+     crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="dsshop_icon.png" type="png">
+    <title>DSShop</title>
+</head>
+<body>
+  <div id="cookies-banner" class="alert alert-dismissible">
+    <p>This Website uses <b>cookies</b> 🍪</p>
+    <button id="accept-cookies" class="btn btn-primary">Agree</button>
+    <button id="decline-cookies" class="btn btn-secondary">Disagree</button>
+  </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="dsshop_logo.png" alt="" width="100" height="23">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Functions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#compatibility">Compatibility</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#extras">Extras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#installation">Installation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#newsletter">Newsletter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://discord.gg/xPTCNpMwKy" target="_blank">
+                  <i class="fab fa-discord" title="DSShop Discord Server"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qrcode.html" target="_blank">
+                <i class="fas fa-qrcode" title="QR Code for CIA"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="releases.html" target="_self">
+                <i class="fas fa-list" title="All releases"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <section id="home" class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-4">Welcome to DSShop!</h1>
+          <p class="lead">Discover and manage your DS games and applications for your 3DS.</p>
+        </div>
+      </section>
+    
+      <section id="features" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Functions</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Friendly User Interface</h4>
+            </div>
+            <div class="col-md-4">
+              <h4>Direct download of games</h4>
+            </div>
+            <div class="col-md-4">
+              <h4>Homebrew DS Apps and modded DS games</h4>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="download_cia" class="btn btn-primary btn-lg">Download DSShop CIA</a>
+          </div>
+        </div>
+      </section>
+    
+      <section id="compatibility" class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center">Compatibility</h2>
+          <p class="text-center">DSShop is fully compatible with these systems:</p>
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <ul class="list-group">
+                <li class="list-group-item">3DS with Firmware-Version 9.0 or higher <span class="badge badge-warning">recommend</span></li>
+                <li class="list-group-item">Supported Region: Every Region</li>
+                <li class="list-group-item">Every 3DS Hardware is compatible</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="extras" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Extras</h2>
+            <div class="text-center mt-4">
+                <button type="button" class="btn btn-success btn-lg" id="playButton">Our Theme Sound</button>
+                <audio id="audioPlayer" src="sound.mp3"></audio>
+            </div>
+        </div>
+      </section>
+    
+      <section id="installation" class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center">Installation</h2>
+          <ol>
+            <li>Download the CIA from this Website</li>
+            <li>Get the CIA to your 3ds Micro SD Card</li>
+            <li>Install the CIA with a CIA-Installer (<a href="https://github.com/Steveice10/FBI/releases" class="text-link"></a>FBI recommend)</li>
+            <li>Launch DSShop on your 3DS</li>
+          </ol>
+          <div class="text-center mt-4">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading"><b>Warning:</b></h4>
+                <p>The beta version is not stable and it can cause problems or even brick your 3DS.</p>
+                <hr>
+                <p class="mb-0">It is recommend to do a backup of your 3DS</p>
+            </div>
+            <a href="download_cia" class="btn btn-primary btn-lg">Download DSShop CIA</a>
+            <a href="downloads" class="btn btn-danger btn-lg text-white">Download DSShop Beta CIA</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Newsletter</h2>
+          <!-- FORM -->
+          <form class="row gy-2 gx-3 align-items-center" action="https://mailthis.to/Costope"
+          method="POST" encType="multipart/form-data">
+          <input type="hidden" name="_subject" value="DSShop Sub">
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingInput">Name</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="Your Name">
+            </div>
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingInputGroup">E-Mail</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="E-Mail" name="_replyto"><button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer bg-light py-4">
+        <div class="container text-center">
+          <span class="text-muted">Made by <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-link">Costope</a> 💫</span>
+        </div>
+      </footer>
+      
+
+      <script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>

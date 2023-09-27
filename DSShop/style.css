@@ -1,0 +1,57 @@
+body {
+    -webkit-user-select: none; /* Für Webkit-Browser (Chrome, Safari) */
+    -moz-user-select: none; /* Für Firefox */
+    -ms-user-select: none; /* Für Internet Explorer/Edge */
+    user-select: none; /* Standardmäßig für andere Browser */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+/* Stile für Abschnitte */
+section {
+    padding: 50px;
+}
+  
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#cookies-banner {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    z-index: 9999; /* Hier wird der z-index hinzugefügt */
+}
+
+#cookies-banner p {
+    margin: 0;
+}
+
+#cookies-banner .btn {
+    margin-top: 5px;
+}
